@@ -132,6 +132,9 @@ var winButtons = win.add('group');
     ok.onClick = startAction;
     ok.active = true;
 
+startAction();
+
+
 function startAction() {
     var items = selection,
         i = items.length,
